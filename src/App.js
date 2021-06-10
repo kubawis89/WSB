@@ -26,6 +26,9 @@ function App() {
           <Route exact path="/">
             <Redirect to="/home" />
           </Route>
+          <Route exact path="/WSB/">
+            <Redirect to="/home" />
+          </Route>
           <Route exact path="/home">
             <Memes />
           </Route>
